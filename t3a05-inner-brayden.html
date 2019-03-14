@@ -1,0 +1,24 @@
+<!-- Saved as t3a05-inner-brayden.html -->
+<h1 align=center>InnerHTML by Brayden</h1>
+
+<a href="https://www.w3schools.com/jsref/prop_html_innerhtml.asp">W3Schools</a>
+
+x = <input type=text id="myText01" value=7>
+<div id=myDiv01">...</div>
+
+<input type=button value="test innerHTML" onClick="{
+	document.all.myDiv01.innerHTML =
+'Cool <font color=red> innerHTML </font> works. it\'s awesome'
+
+ }">
+
+<input type=button value="CSS style" onClick="{
+	document.all.myDiv01.innerHTML =
+	 'Cool <font style=\' color:red; background-color:blue;
+\'>color'+
+	' </font>cool'
+}">
+
+<input type=button value="getElementById()" onClick="{
+	document.getElementById('myDiv01').innerHTML =  'Nice'
+}">
